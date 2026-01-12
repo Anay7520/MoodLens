@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+auth0-python
+python-jose[cryptography]
+pymongo
+transformers
+bcrypt
+pydantic
+streamlit

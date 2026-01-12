@@ -1,0 +1,18 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "auth0-python>=4.13.0",
+    "bcrypt>=5.0.0",
+    "fastapi>=0.128.0",
+    "pipeline>=0.1.0",
+    "pydantic>=2.12.5",
+    "pymongo>=4.16.0",
+    "python-dotenv>=1.2.1",
+    "python-jose[cryptography]>=3.5.0",
+    "transformers>=4.57.3",
+    "uvicorn[standard]>=0.40.0",
+]
