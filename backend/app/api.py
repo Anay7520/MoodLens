@@ -2,10 +2,10 @@ from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import bcrypt
 
-import db.mongo
-from sentiment import sentiment_analysis
-from jwtsign import sign, decode
-from schemas import signupschema, signinschema, analysisschema
+import app.db.mongo as db
+from app.sentiment import sentiment_analysis
+from app.jwtsign import sign, decode
+from app.schemas import signupschema, signinschema, analysisschema
 
 
 app = FastAPI()

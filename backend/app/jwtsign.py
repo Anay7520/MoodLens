@@ -3,7 +3,7 @@ import jwt
 from fastapi import HTTPException, Depends
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel
-from config import JWT_SECRET, JWT_ALGORITHM
+from app.config import JWT_SECRET, JWT_ALGORITHM
 
 bearer = HTTPBearer()
 
